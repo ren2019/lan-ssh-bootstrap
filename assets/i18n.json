@@ -1,0 +1,165 @@
+{
+  "zh": {
+    "title": "三步，准备好这台电脑",
+    "subtitle": "按顺序操作，完成后由 Mac 验证连接。",
+    "openTitle": "打开管理员 PowerShell",
+    "startIntro": "点击「开始」，输入 <strong>PowerShell</strong>。<br>选择「Windows PowerShell」，再选择「以管理员身份运行」。",
+    "figureNote": "中文 Windows 11 搜索结果的操作菜单，选择「以管理员身份运行」。点击图片可放大。",
+    "permission": "出现权限提示时选择「是」；如果要求管理员凭据，请让电脑管理员确认。",
+    "sourceLabel": "截图来源",
+    "versionNote": "界面随 Windows 版本有所不同。",
+    "copyTitle": "复制命令并运行",
+    "copy": "复制命令",
+    "copied": "已复制",
+    "copyNote": "已复制。请粘贴到管理员 PowerShell 中，按回车运行。",
+    "hint": "粘贴命令后按",
+    "hintEnd": "，然后按窗口提示确认。",
+    "hintBefore": "你可以先复制命令，再打开 PowerShell。",
+    "sameLAN": "同一局域网",
+    "footer": "遇到问题时，请保留 PowerShell 窗口中的提示。",
+    "checked": "检查完成",
+    "configuring": "配置 SSH",
+    "verify": "验证连接",
+    "statuses": {
+      "ready": {
+        "title": "等待你运行命令",
+        "body": "运行后，这里会自动显示进度。请保持此页面打开。",
+        "icon": "wait"
+      },
+      "running": {
+        "title": "正在配置这台电脑",
+        "body": "请保持 PowerShell 窗口打开，暂时不需要操作。",
+        "icon": "spinner"
+      },
+      "verifying": {
+        "title": "等待 Mac 端验证连接",
+        "body": "这台电脑已准备好。请让 Mac 操作者核对窗口中的指纹并验证连接。",
+        "icon": "wait"
+      },
+      "success": {
+        "title": "这台电脑已准备好",
+        "body": "公钥连接已验证成功。你可以关闭 PowerShell 窗口和此页面。",
+        "icon": "success"
+      },
+      "error": {
+        "title": "配置尚未完成",
+        "body": "请查看 PowerShell 窗口中的提示。处理后重新运行命令，已有配置会先检查再补足。",
+        "icon": "error"
+      },
+      "offline": {
+        "title": "暂时联系不到 Mac",
+        "body": "请确认 Mac 上的工具仍在运行，且两台电脑连接同一局域网。恢复后页面会继续更新。",
+        "icon": "offline"
+      }
+    },
+    "manualTitle": "手动复制命令",
+    "manualBody": "浏览器未允许直接复制。请选中下方命令，按 Ctrl+C。",
+    "manualCommand": "待复制命令",
+    "manualDone": "已复制，返回",
+    "language": "页面语言",
+    "connection": "来自 Mac 的连接准备",
+    "macOffline": "Mac 暂时离线",
+    "shots": {
+      "images": [
+        {
+          "src": "/images/windows-powershell-admin-zh.png",
+          "caption": "搜索 PowerShell，选择「以管理员身份运行」",
+          "alt": "中文 Windows 搜索中，Windows PowerShell 右侧操作菜单包含以管理员身份运行。"
+        }
+      ],
+      "source": "https://github.com/ren2019/lan-ssh-bootstrap/blob/main/THIRD_PARTY_NOTICES.md",
+      "author": "LAN SSH Bootstrap 项目实机截图",
+      "license": "MIT（项目截图）",
+      "licenseURL": "https://github.com/ren2019/lan-ssh-bootstrap/blob/main/LICENSE"
+    },
+    "accountLabel": "所选账户",
+    "setupNote": "开发预览 · 仅在可信局域网使用；请在 PowerShell 中核对变更后再确认。",
+    "cancelled": "已取消，本次未开始配置。可以重新运行命令。",
+    "versionLabel": "新安装使用",
+    "lockdown": "正在完成认证策略设置，随后将再次验证连接。"
+  },
+  "en": {
+    "title": "Prepare this PC in three steps",
+    "subtitle": "Follow the steps below. The Mac will verify the connection when you finish.",
+    "openTitle": "Open PowerShell as administrator",
+    "startIntro": "Select <strong>Start</strong> and type <strong>PowerShell</strong>.<br>Select <strong>Windows PowerShell</strong>, then choose <strong>Run as administrator</strong>.",
+    "figureNote": "English Windows examples. The arrows show where to search and choose Run as administrator. Select an image to enlarge it.",
+    "permission": "Choose Yes at the permission prompt. If administrator credentials are required, ask the PC administrator to approve.",
+    "sourceLabel": "Screenshots",
+    "versionNote": "The interface may vary by Windows version.",
+    "copyTitle": "Copy and run the command",
+    "copy": "Copy command",
+    "copied": "Copied",
+    "copyNote": "Copied. Paste it into administrator PowerShell, then press Enter.",
+    "hint": "After pasting, press",
+    "hintEnd": " and follow the prompts in PowerShell.",
+    "hintBefore": "You can copy the command before opening PowerShell.",
+    "sameLAN": "Same local network",
+    "footer": "If something goes wrong, keep the message in the PowerShell window.",
+    "checked": "Checks complete",
+    "configuring": "Configure SSH",
+    "verify": "Verify connection",
+    "statuses": {
+      "ready": {
+        "title": "Waiting for you to run the command",
+        "body": "Progress will appear here automatically. Keep this page open.",
+        "icon": "wait"
+      },
+      "running": {
+        "title": "Setting up this PC",
+        "body": "Keep the PowerShell window open. No action is needed for now.",
+        "icon": "spinner"
+      },
+      "verifying": {
+        "title": "Waiting for verification on the Mac",
+        "body": "This PC is ready. Ask the Mac operator to compare the fingerprint shown in PowerShell and verify the connection.",
+        "icon": "wait"
+      },
+      "success": {
+        "title": "This PC is ready",
+        "body": "Public-key login has been verified. You can close PowerShell and this page.",
+        "icon": "success"
+      },
+      "error": {
+        "title": "Setup is not complete",
+        "body": "Check the message in PowerShell. Resolve the issue, then run the command again. Existing settings will be checked before anything is added.",
+        "icon": "error"
+      },
+      "offline": {
+        "title": "Cannot reach the Mac right now",
+        "body": "Check that the tool is still running on the Mac and both computers are on the same local network. Updates will resume when it reconnects.",
+        "icon": "offline"
+      }
+    },
+    "manualTitle": "Copy the command manually",
+    "manualBody": "The browser did not allow direct copying. Select the command below and press Ctrl+C.",
+    "manualCommand": "Command to copy",
+    "manualDone": "Copied, go back",
+    "language": "Page language",
+    "connection": "Setup started from a Mac",
+    "macOffline": "Mac is offline",
+    "shots": {
+      "images": [
+        {
+          "src": "/images/windows-powershell-search.jpg",
+          "caption": "① Search for PowerShell in Start",
+          "alt": "English Windows Start search, with an arrow pointing to powershell in the search box."
+        },
+        {
+          "src": "/images/windows-powershell-admin.jpg",
+          "caption": "② Choose Run as administrator",
+          "alt": "English Windows PowerShell context menu, with an arrow pointing to Run as administrator."
+        }
+      ],
+      "source": "https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started",
+      "author": "Microsoft Learn",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "accountLabel": "Selected account",
+    "setupNote": "Development preview · Use on a trusted local network. Review changes in PowerShell before confirming.",
+    "cancelled": "Cancelled before setup. You can run the command again.",
+    "versionLabel": "Fresh installs use",
+    "lockdown": "Finalizing authentication settings, followed by another connection check."
+  }
+}
